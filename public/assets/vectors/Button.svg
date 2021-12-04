@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="366" height="167" viewBox="0 0 366 167">
+  <defs>
+    <filter id="Bg" x="0" y="0" width="366" height="167" filterUnits="userSpaceOnUse">
+      <feOffset dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17" result="blur"/>
+      <feFlood flood-color="#7757ef" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Button_" data-name="Button " transform="translate(51 38)">
+    <g transform="matrix(1, 0, 0, 1, -51, -38)" filter="url(#Bg)">
+      <rect id="Bg-2" data-name="Bg" width="264" height="65" rx="32.5" transform="translate(51 38)" fill="#fff"/>
+    </g>
+    <text id="Label" transform="translate(75 41)" fill="#a90353" font-size="20" font-family="SAMWICKLEY, SAM WICKLEY"><tspan x="0" y="0">CONNECT WALLET</tspan></text>
+  </g>
+</svg>
