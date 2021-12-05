@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Hero from "./Hero";
 import Welcome from "./Welcome";
 import Specs from "./Specs";
 import Roadmap from "./Roadmap";
@@ -9,6 +10,7 @@ const Landing = () => {
   return (
     <>
       <Navbar />
+      <Hero />
       <Welcome />
       <Specs />
       <Roadmap />

@@ -17,10 +17,6 @@
   font-family: sam-wickley, sans-serif;
 }
 
-body {
-  padding-top: 180px;
-}
-
 h1 {
   font-size: 50px;
 }
@@ -118,7 +114,7 @@ button {
 #navbar .nav .nav-item a {
   position: relative;
   display: block;
-  padding: 1rem;
+  padding: 1rem 3rem;
   font-size: 50px;
   color: #fff;
 }
@@ -172,6 +168,56 @@ button {
 
 #navbar .social img.twitter {
   width: 30px;
+}
+
+#hero {
+  padding-top: 180px;
+  background-image: url("../img/bg-hero.png");
+  color: #fff;
+  height: 1345px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .box {
+  width: 47%;
+  border: 2px solid #ffcc00;
+  padding: 3rem 10rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+
+#hero .box h1 {
+  text-align: center;
+}
+
+#hero .box .timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero .box .timer .item h1 {
+  font-size: 70px;
+  margin-bottom: 2rem;
+}
+
+#hero .box .timer .item h3 {
+  font-size: 30px;
 }
 
 #welcome {

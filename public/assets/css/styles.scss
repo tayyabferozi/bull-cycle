@@ -8,6 +8,7 @@ $color3: #fcfc00;
 $color4: #a33c3c;
 $color5: #d0b343;
 $color6: #1e1c45;
+$color7: #ffcc00;
 
 :root {
   --section-padding: 6rem;
@@ -23,7 +24,6 @@ $color6: #1e1c45;
 }
 
 body {
-  padding-top: 180px;
 }
 
 h1 {
@@ -100,7 +100,7 @@ button {
       a {
         position: relative;
         display: block;
-        padding: 1rem;
+        padding: 1rem 3rem;
         font-size: 50px;
         color: #fff;
 
@@ -115,6 +115,7 @@ button {
       }
     }
   }
+
   .social {
     display: flex;
     justify-content: space-between;
@@ -148,6 +149,45 @@ button {
 
       &.twitter {
         width: 30px;
+      }
+    }
+  }
+}
+
+#hero {
+  padding-top: 180px;
+  background-image: url("../img/bg-hero.png");
+  color: #fff;
+  height: 1345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .box {
+    width: 47%;
+    border: 2px solid $color7;
+    padding: 3rem 10rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+
+    h1 {
+      text-align: center;
+    }
+
+    .timer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .item {
+        h1 {
+          font-size: 70px;
+          margin-bottom: 2rem;
+        }
+
+        h3 {
+          font-size: 30px;
+        }
       }
     }
   }
@@ -297,7 +337,7 @@ button {
 }
 
 #more-1 {
-  background-color: #ffcc00;
+  background-color: $color7;
 
   h1 {
     &:first-child {
